@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-plasmashell --replace && systemctl --user restart plasma-plasmashell
+plasmashell --replace
+systemctl --user restart plasma-plasmashell
